@@ -8,6 +8,7 @@
    Colors: Deep blue (trust), Green (action), Neutral grays
 */
 
+
 @layer base {
   :root {
     /* Core brand colors - Professional Blue */
@@ -229,21 +230,26 @@
   }
 
   /* Pulse animation for CTAs */
-  .pulse-accent {
-    animation: pulse-accent 2s infinite;
+  .pulse-accent-calm {
+    animation: pulse-calm 6s ease-in-out infinite;
   }
 
-  @keyframes pulse-accent {
+  @keyframes pulse-calm {
 
     0%,
-    100% {
-      box-shadow: 0 0 0 0 hsl(var(--accent) / 0.4);
+    30% {
+      box-shadow: 0 0 0 0 hsl(var(--accent) / 0.25);
     }
 
-    50% {
-      box-shadow: 0 0 0 12px hsl(var(--accent) / 0);
+    65% {
+      box-shadow: 0 0 0 18px hsl(var(--accent) / 0);
+    }
+
+    100% {
+      box-shadow: 0 0 0 0 hsl(var(--accent) / 0);
     }
   }
+
 
   /* Fade in animation */
   .animate-fade-in {
