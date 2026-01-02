@@ -17,7 +17,7 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         hero: "accent-gradient text-accent-foreground shadow-lg hover:shadow-glow hover:scale-[1.02] active:scale-[0.98]",
         heroSecondary: "bg-white/10 backdrop-blur-sm border-2 border-white/30 text-white hover:bg-white/20 hover:border-white/50",
-        quote: "accent-gradient text-accent-foreground font-bold shadow-md hover:shadow-lg hover:scale-[1.02]",
+        quote: "accent-gradient text-accent-foreground shadow-md hover:shadow-lg hover:scale-[1.02]",
         outlineLight: "border-2 border-white/50 bg-transparent text-white hover:bg-white/10 hover:border-white",
         whatsapp: "bg-[#25D366] text-white hover:bg-[#20BD5A] shadow-md",
       },
