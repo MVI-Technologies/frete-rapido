@@ -87,8 +87,7 @@ const Index = () => {
               transition={{ delay: 0.1, duration: 0.5 }}
               className="text-display-sm md:text-display text-foreground mb-6"
             >
-              Cotação de frete em segundos —{' '}
-              <span className="text-primary">sem surpresas.</span>
+              Cotação de frete em segundos
             </motion.h1>
             
             <motion.p
